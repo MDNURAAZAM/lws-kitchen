@@ -9,7 +9,7 @@ const CategoryPage = () => {
 
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {categories.map((category) => (
-          <Link key={category.id} href={`/category/${category.id}`}>
+          <Link key={category.id} href={`/${category.id}`}>
             <CategoryItem category={category} />
           </Link>
         ))}

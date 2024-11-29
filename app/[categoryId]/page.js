@@ -1,6 +1,7 @@
 import RecipeItem from "@/components/RecipeItem/RecipeItem";
 import recipes from "@/public/data/recipes.json";
 import categories from "@/public/data/categories.json";
+import Link from "next/link";
 
 const RecipePage = ({ params }) => {
   const { categoryId } = params || {};
@@ -29,9 +30,15 @@ const RecipePage = ({ params }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {clickedRecipes?.map((recipe) => (
-          <RecipeItem key={recipe.title} recipe={recipe} />
+          <Link
+            className=""
+            key={recipe.title}
+            href={`/${categoryId}/${recipe.title.split(" ").join("-")}`}
+          >
+            <RecipeItem recipe={recipe} />
+          </Link>
         ))}
       </div>
     </main>
