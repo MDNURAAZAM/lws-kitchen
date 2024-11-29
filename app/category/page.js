@@ -1,5 +1,6 @@
 import CategoryItem from "@/components/CategoryItem/CategoryItem";
 import categories from "../../public/data/categories.json";
+import Link from "next/link";
 
 const CategoryPage = () => {
   return (
@@ -8,7 +9,9 @@ const CategoryPage = () => {
 
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {categories.map((category) => (
-          <CategoryItem key={category.id} category={category} />
+          <Link key={category.id} href={`/category/${category.id}`}>
+            <CategoryItem category={category} />
+          </Link>
         ))}
       </div>
     </main>
