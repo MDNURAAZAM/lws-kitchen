@@ -8,8 +8,8 @@ const RecipeItem = ({ recipe }) => {
       <Image
         alt={title}
         src={imagePath}
-        height={200}
-        width={200}
+        height={1000}
+        width={1000}
         className="w-full h-48 object-cover"
       />
       <div className="p-4">

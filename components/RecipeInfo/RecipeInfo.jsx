@@ -22,8 +22,8 @@ const RecipeInfo = ({ recipe }) => {
           src={"/assets/avater.png"}
           alt={author}
           className="w-8 h-8 rounded-full"
-          height={50}
-          width={50}
+          height={1000}
+          width={1000}
         />
 
         <span className="text-gray-600">{author}</span>
@@ -48,8 +48,8 @@ const RecipeInfo = ({ recipe }) => {
         src={imagePath}
         className="w-full h-[800px] mb-8 rounded-lg"
         alt={title}
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
       />
 
       <p className="text-gray-600 mb-8">{description}</p>
@@ -91,8 +91,8 @@ const RecipeInfo = ({ recipe }) => {
         src="/assets/thumbs/thumb-15.jpg"
         alt="Cooking in kitchen"
         class="w-full h-auto mb-8 rounded-lg max-w-xl mx-auto"
-        width={50}
-        height={50}
+        width={1000}
+        height={1000}
       />
 
       <p class="mb-8">

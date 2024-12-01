@@ -29,3 +29,13 @@ export const formatDate = (value) => {
   });
   return formattedDate;
 };
+
+export const getMostPopularRecipe = () => {
+  return [...recipes]?.reduce(
+    (maxRated, current) =>
+      current?.rating?.average_rating > (maxRated?.rating?.average_rating || 0)
+        ? current
+        : maxRated,
+    {}
+  );
+};

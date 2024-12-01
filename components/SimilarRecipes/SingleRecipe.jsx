@@ -9,8 +9,8 @@ const SingleRecipe = ({ recipe }) => {
       <Image
         alt={title}
         src={imagePath}
-        height={200}
-        width={200}
+        height={1000}
+        width={1000}
         className="w-full h-60 object-cover rounded-lg mb-2"
       />
 

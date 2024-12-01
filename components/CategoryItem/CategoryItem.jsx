@@ -7,8 +7,8 @@ const CategoryItem = ({ category }) => {
     <div className="text-center">
       <div className="overflow-hidden rounded-full mb-4 relative cursor-pointer">
         <Image
-          height={200}
-          width={200}
+          height={1000}
+          width={1000}
           src={imagePath}
           alt={name}
           className="w-full h-auto transform transition-transform duration-300 ease-in-out hover:scale-110"
