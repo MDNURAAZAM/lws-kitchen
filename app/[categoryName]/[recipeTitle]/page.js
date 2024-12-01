@@ -4,7 +4,7 @@ const RecipeDetailsPage = ({ params }) => {
   const { recipeTitle } = params || {};
 
   const recipe = recipes?.find(
-    (r) => r.title === recipeTitle.split("-").join(" ")
+    (r) => r.title === recipeTitle.split("_").join(" ")
   );
 
   return (

@@ -4,19 +4,21 @@ import categories from "@/public/data/categories.json";
 import Link from "next/link";
 
 const RecipePage = ({ params }) => {
-  const { categoryId } = params || {};
-  const clickedRecipes = recipes.filter(
-    (recipe) => recipe?.category_id === categoryId
-  );
+  const { categoryName } = params || {};
+
   const category = categories?.find(
-    (category) => category?.id === categoryId
-  )?.name;
+    (category) => category?.name === categoryName
+  );
+
+  const clickedRecipes = recipes.filter(
+    (recipe) => recipe?.category_id === category?.id
+  );
   return (
     <main className="container mx-auto px-4 py-8 mt-[100px]">
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-4xl font-bold mb-2">
-            {category}{" "}
+            {category?.name}{" "}
             <span className="text-gray-500 text-2xl font-normal">
               ({clickedRecipes?.length}{" "}
               {`Recipe${clickedRecipes?.length > 1 ? "s" : ""}`})
@@ -35,7 +37,7 @@ const RecipePage = ({ params }) => {
           <Link
             className=""
             key={recipe.title}
-            href={`/${categoryId}/${recipe.title.split(" ").join("-")}`}
+            href={`/${categoryName}/${recipe.title.split(" ").join("_")}`}
           >
             <RecipeItem recipe={recipe} />
           </Link>
