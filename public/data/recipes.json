@@ -12,19 +12,7 @@
     "author": "Mia Cooper",
     "thumbnail": "thumb-6.jpg"
   },
-  {
-    "rating": {
-      "rating_count": 27,
-      "average_rating": 4.3
-    },
-    "category_id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
-    "description": "Desserts are the best way to end any meal on a sweet note. From classic cakes and cookies to more exotic sweets like baklava and mochi, this blog features a wide variety of dessert recipes from around the world. Learn how to create stunning desserts that not only taste amazing but look beautiful as well. Whether you're a chocolate lover or prefer fruity flavors, there's a dessert here for every taste and skill level.",
-    "title": "Dessert Heaven: Sweet Recipes from Around the World",
-    "published_date": "2024-07-24",
-    "cooking_time": "50 minutes",
-    "author": "Emma Moore",
-    "thumbnail": "thumb-10.jpg"
-  },
+
   {
     "rating": {
       "rating_count": 19,
@@ -90,19 +78,7 @@
     "author": "David Hernandez",
     "thumbnail": "thumb-1.jpg"
   },
-  {
-    "rating": {
-      "rating_count": 18,
-      "average_rating": 4.0
-    },
-    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
-    "description": "Ramen has become a global favorite, and it's not hard to see why. This blog features a collection of ramen recipes, from traditional Japanese styles to more modern fusion versions. Whether you're making a simple miso ramen or a rich tonkotsu broth, these recipes are sure to satisfy your cravings. Learn the techniques for making homemade ramen noodles, broth, and all the toppings to create a bowl that's as good as any ramen shop.",
-    "title": "Ramen Recipes: From Traditional to Modern Fusion",
-    "published_date": "2024-09-10",
-    "cooking_time": "45 minutes",
-    "author": "Zoe Foster",
-    "thumbnail": "thumb-6.jpg"
-  },
+
   {
     "rating": {
       "rating_count": 14,
@@ -345,7 +321,7 @@
     "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
     "description": "A classic garlic butter shrimp recipe that’s quick and easy to prepare. Juicy shrimp are sautéed in a flavorful garlic butter sauce with a touch of lemon and parsley. Perfect as an appetizer or served over pasta for a full meal.",
     "title": "Garlic Butter Shrimp",
-    "published_date": "2024-11-15",
+    "published_date": "2023-11-15",
     "cooking_time": "20 minutes",
     "author": "Liam Fisher",
     "thumbnail": "thumb-5.jpg"
@@ -358,7 +334,7 @@
     "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
     "description": "This creamy salmon pasta is a comforting and delicious dish featuring tender salmon chunks in a rich, creamy sauce. Fresh dill and lemon zest add a refreshing touch, making it an irresistible dinner option.",
     "title": "Creamy Salmon Pasta",
-    "published_date": "2024-10-25",
+    "published_date": "2024-02-25",
     "cooking_time": "35 minutes",
     "author": "Emma Stone",
     "thumbnail": "thumb-12.jpg"
@@ -384,7 +360,7 @@
     "category_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
     "description": "These fish tacos are a fresh and vibrant dish perfect for any day of the week. Lightly battered fish is paired with tangy slaw, creamy avocado, and a drizzle of lime crema, all wrapped in warm tortillas.",
     "title": "Fish Tacos with Lime Crema",
-    "published_date": "2024-11-10",
+    "published_date": "2022-11-10",
     "cooking_time": "25 minutes",
     "author": "Mason Garcia",
     "thumbnail": "thumb-14.jpg"
@@ -1143,19 +1119,7 @@
     "author": "Lucas Martin",
     "thumbnail": "thumb-1.jpg"
   },
-  {
-    "rating": {
-      "rating_count": 60,
-      "average_rating": 4.7
-    },
-    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
-    "description": "A grilled cheese sandwich with a side of tomato soup.",
-    "title": "Grilled Cheese & Tomato Soup",
-    "published_date": "2024-06-16",
-    "cooking_time": "15 minutes",
-    "author": "Ethan Lewis",
-    "thumbnail": "thumb-10.jpg"
-  },
+
   {
     "rating": {
       "rating_count": 40,

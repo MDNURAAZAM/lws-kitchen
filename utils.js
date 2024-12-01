@@ -70,3 +70,10 @@ export const getRandomIndexRecipe = () => {
 export const getHandPickedRecipes = () => {
   return [recipes[getRandomIndexRecipe()], recipes[getRandomIndexRecipe()]];
 };
+
+export const getLatestRecipes = () => {
+  const sortedByDateDesc = [...recipes]?.sort(
+    (a, b) => new Date(b?.published_date) - new Date(a?.published_date)
+  );
+  return sortedByDateDesc.slice(0, 4);
+};
