@@ -42,7 +42,7 @@ export const getMostPopularRecipe = () => {
 
 export const getSuperDeliciousRecipes = () => {
   const superDeliciousRecipes = [...recipes]
-    ?.sort((a, b) => b?.rating?.rating_count - a?.rating?.rating_count)
+    ?.sort((a, b) => b?.rating?.average_rating - a?.rating?.average_rating)
     .slice(0, 3);
   return [...superDeliciousRecipes];
 };
