@@ -46,3 +46,19 @@ export const getSuperDeliciousRecipes = () => {
     .slice(0, 3);
   return [...superDeliciousRecipes];
 };
+
+export const getPopularCategories = () => {
+  const categoriesCount = {};
+  categories.map((catgeory) => (categoriesCount[catgeory?.id] = 0));
+  recipes?.map((recipe) => categoriesCount[recipe?.category_id]++);
+
+  const popularIds = [...Object.entries(categoriesCount)]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map((p) => p[0]);
+
+  const popularCategories = categories?.filter((category) =>
+    popularIds.includes(category?.id)
+  );
+  return [...popularCategories];
+};
