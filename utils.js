@@ -62,3 +62,11 @@ export const getPopularCategories = () => {
   );
   return [...popularCategories];
 };
+
+export const getRandomIndexRecipe = () => {
+  return Math.floor(Math.random() * recipes?.length);
+};
+
+export const getHandPickedRecipes = () => {
+  return [recipes[getRandomIndexRecipe()], recipes[getRandomIndexRecipe()]];
+};
