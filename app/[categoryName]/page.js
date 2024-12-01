@@ -35,7 +35,6 @@ const RecipePage = ({ params }) => {
       <div className="grid h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {clickedRecipes?.map((recipe) => (
           <Link
-            className=""
             key={recipe.title}
             href={`/${categoryName}/${recipe?.title?.split(" ").join("_")}`}
           >
