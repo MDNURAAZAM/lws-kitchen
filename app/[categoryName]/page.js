@@ -3,6 +3,12 @@ import recipes from "@/public/data/recipes.json";
 import categories from "@/public/data/categories.json";
 import Link from "next/link";
 
+export async function generateStaticParams() {
+  return categories.map((category) => ({
+    categoryName: category?.name,
+  }));
+}
+
 const RecipePage = ({ params }) => {
   const { categoryName } = params || {};
 

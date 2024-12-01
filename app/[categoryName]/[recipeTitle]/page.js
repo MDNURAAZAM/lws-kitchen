@@ -1,6 +1,13 @@
 import RecipeInfo from "@/components/RecipeInfo/RecipeInfo";
 import SimilarRecipes from "@/components/SimilarRecipes/SimilarRecipes";
 import recipes from "@/public/data/recipes.json";
+
+export async function generateStaticParams() {
+  return recipes.map((recipe) => ({
+    recipeTitle: recipe?.title?.split(" ").join("_"),
+  }));
+}
+
 const RecipeDetailsPage = ({ params }) => {
   const { recipeTitle } = params || {};
 
