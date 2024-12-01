@@ -19,7 +19,7 @@ const Header = () => {
             <CustomLink pathName="/category">Categories</CustomLink>
           </li>
           <li>
-            <CustomLink pathName="/recipes">Latest Recipes</CustomLink>
+            <CustomLink pathName="/#latest-recipes">Latest Recipes</CustomLink>
           </li>
         </ul>
         <div className="flex items-center space-x-4">

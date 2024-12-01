@@ -37,7 +37,7 @@ const RecipePage = ({ params }) => {
           <Link
             className=""
             key={recipe.title}
-            href={`/${categoryName}/${recipe.title.split(" ").join("_")}`}
+            href={`/${categoryName}/${recipe?.title?.split(" ").join("_")}`}
           >
             <RecipeItem recipe={recipe} />
           </Link>
