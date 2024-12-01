@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const RecipeItem = ({ recipe }) => {
-  const { thumbnail, title } = recipe;
+  const { thumbnail, title } = recipe || {};
   const imagePath = `/assets/thumbs/${thumbnail}`;
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md h-full">
