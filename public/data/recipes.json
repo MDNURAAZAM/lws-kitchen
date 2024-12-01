@@ -1301,5 +1301,57 @@
     "cooking_time": "10 minutes",
     "author": "Emily Johnson",
     "thumbnail": "thumb-6.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 140,
+      "average_rating": 4.9
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "A classic turkey sandwich layered with lettuce, tomato, and mayonnaise.",
+    "title": "Classic Turkey Sandwich",
+    "published_date": "2024-09-15",
+    "cooking_time": "10 minutes",
+    "author": "Michael Carter",
+    "thumbnail": "thumb-8.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 115,
+      "average_rating": 4.7
+    },
+    "category_id": "c9d0e1f2-g3h4-i5j6-k7l8-m9n0o1p2q3r4",
+    "description": "A grilled chicken sandwich with pesto, mozzarella, and fresh basil.",
+    "title": "Grilled Chicken Pesto Sandwich",
+    "published_date": "2024-10-05",
+    "cooking_time": "20 minutes",
+    "author": "Sophia Martinez",
+    "thumbnail": "thumb-4.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 130,
+      "average_rating": 4.9
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "A spicy Korean-inspired ramen with gochujang, kimchi, and soft-boiled eggs.",
+    "title": "Kimchi Ramen",
+    "published_date": "2024-10-12",
+    "cooking_time": "30 minutes",
+    "author": "Hana Kim",
+    "thumbnail": "thumb-12.jpg"
+  },
+  {
+    "rating": {
+      "rating_count": 145,
+      "average_rating": 4.8
+    },
+    "category_id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+    "description": "A vegetarian ramen with miso-based broth, tofu, and seasonal vegetables.",
+    "title": "Vegetarian Miso Ramen",
+    "published_date": "2024-11-05",
+    "cooking_time": "25 minutes",
+    "author": "Liam Anderson",
+    "thumbnail": "thumb-4.jpg"
   }
 ]
