@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SaveSVG from "../SVGs/SaveSVG";
 import ShareSVG from "../SVGs/ShareSVG";
+import { formatDate } from "@/utils";
 
 const RecipeInfo = ({ recipe }) => {
   const {
@@ -29,7 +30,7 @@ const RecipeInfo = ({ recipe }) => {
         <span className="text-gray-400">|</span>
         <span className="text-gray-600">{cooking_time}</span>
         <span className="text-gray-400">|</span>
-        <span className="text-gray-600">{published_date}</span>
+        <span className="text-gray-600">{formatDate(published_date)}</span>
       </div>
       <div className="flex justify-between items-center mb-8">
         <div className="flex space-x-4">

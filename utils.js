@@ -18,3 +18,14 @@ export const getPopularRecipes = (categoryId, currentRecipe) => {
     .slice(0, 4);
   return [...popularRecipes];
 };
+
+export const formatDate = (value) => {
+  const date = new Date(value);
+
+  const formattedDate = date.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+  return formattedDate;
+};
