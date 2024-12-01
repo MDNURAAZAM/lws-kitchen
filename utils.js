@@ -39,3 +39,10 @@ export const getMostPopularRecipe = () => {
     {}
   );
 };
+
+export const getSuperDeliciousRecipes = () => {
+  const superDeliciousRecipes = [...recipes]
+    ?.sort((a, b) => b?.rating?.rating_count - a?.rating?.rating_count)
+    .slice(0, 3);
+  return [...superDeliciousRecipes];
+};
