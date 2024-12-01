@@ -1,6 +1,10 @@
 import CategoryItem from "@/components/CategoryItem/CategoryItem";
 import categories from "../../public/data/categories.json";
 import Link from "next/link";
+export const metadata = {
+  title: "Category",
+  description: "food categories",
+};
 
 const CategoryPage = () => {
   return (
