@@ -45,10 +45,10 @@ const RecipeInfo = ({ recipe }) => {
       </div>
       <Image
         src={imagePath}
-        className="w-full h-auto mb-8 rounded-lg"
+        className="w-full h-[800px] mb-8 rounded-lg"
         alt={title}
-        width={200}
-        height={200}
+        width={500}
+        height={500}
       />
 
       <p className="text-gray-600 mb-8">{description}</p>
